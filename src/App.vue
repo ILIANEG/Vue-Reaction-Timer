@@ -25,9 +25,11 @@ export default {
   methods: {
     startGame() {
       this.gameStarted = true
+      this.isOver = false
     },
     startTimer() {
       this.startTime = new Date().getTime()
+      this.isOver = false
     },
     finishGame() {
       this.gameStarted = false
