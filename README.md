@@ -1,4 +1,6 @@
 # reaction_timer
+- Simple reaction timer implemented using Vue3
+- Project was implemented as suggested excersise for course in Vue3
 
 ## Project setup
 ```
